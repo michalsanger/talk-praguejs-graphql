@@ -229,3 +229,13 @@ error Command failed with exit code 1.
 ---
 
 # Margarita
+
+`github.com/kiwicom/margarita`
+
+- GraphQL, Relay
+- Shareable UI, RN & RNW
+- Kiwi.com Tequila API
+
+---
+
+![fit](images/margarita-demo.mov)
