@@ -137,10 +137,6 @@ try {
 
 ---
 
-# JS & Test utils?
-
----
-
 # BC Checker
 
 `yarn add --dev @kiwicom/graphql-bc-checker`
@@ -190,10 +186,6 @@ error Command failed with exit code 1.
 
 ---
 
-# GraphQL utils ?
-
----
-
 # Relay
 
 `yarn add react @kiwicom/relay`
@@ -239,6 +231,14 @@ error Command failed with exit code 1.
 
 ---
 
+# Share your :heart:
+
+![inline](images/stars.png)
+![inline](images/issues.png)
+![inline](images/pull-requests.png)
+
+---
+
 # Links
 
 - [npmjs.com/package/@kiwicom/eslint-config](https://www.npmjs.com/package/@kiwicom/eslint-config)
@@ -255,7 +255,6 @@ error Command failed with exit code 1.
 # There is more
 
 - [npmjs.com/package/@kiwicom/monorepo](https://www.npmjs.com/package/@kiwicom/monorepo)
-- [npmjs.com/package/@kiwicom/npm-publisher](https://www.npmjs.com/package/@kiwicom/npm-publisher)
 - [npmjs.com/package/@kiwicom/npm-publisher](https://www.npmjs.com/package/@kiwicom/npm-publisher)
 - [npmjs.com/package/@kiwicom/test-utils](https://www.npmjs.com/package/@kiwicom/test-utils)
 - [npmjs.com/package/@kiwicom/js](https://www.npmjs.com/package/@kiwicom/js)
