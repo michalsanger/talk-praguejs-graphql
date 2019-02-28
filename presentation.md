@@ -199,6 +199,18 @@ error Command failed with exit code 1.
 
 # Relay
 
+`yarn add react @kiwicom/relay`
+
+- Relay wrapper
+- query logging during development
+- response cache, batch requests
+- uploadables, persistent queries
+- flow
+
+---
+
+![fit](images/relay-logger.png)
+
 ---
 
 # Relay example
