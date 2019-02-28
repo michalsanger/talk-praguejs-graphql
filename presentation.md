@@ -215,6 +215,17 @@ error Command failed with exit code 1.
 
 # Relay example
 
+`github.com/kiwicom/relay-example`
+
+- HOW TO `@kiwicom/relay`
+- simple fetching
+- Endless pagination
+- bi-directional pagination
+
+---
+
+![fit](images/relay-example.png)
+
 ---
 
 # Margarita
