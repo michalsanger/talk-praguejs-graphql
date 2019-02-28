@@ -249,3 +249,18 @@ error Command failed with exit code 1.
 - [npmjs.com/package/@kiwicom/relay](https://www.npmjs.com/package/@kiwicom/relay)
 - [github.com/kiwicom/relay-example](https://github.com/kiwicom/relay-example)
 - [github.com/kiwicom/margarita](https://github.com/kiwicom/margarita)
+
+---
+
+# There is more
+
+- [npmjs.com/package/@kiwicom/monorepo](https://www.npmjs.com/package/@kiwicom/monorepo)
+- [npmjs.com/package/@kiwicom/npm-publisher](https://www.npmjs.com/package/@kiwicom/npm-publisher)
+- [npmjs.com/package/@kiwicom/npm-publisher](https://www.npmjs.com/package/@kiwicom/npm-publisher)
+- [npmjs.com/package/@kiwicom/test-utils](https://www.npmjs.com/package/@kiwicom/test-utils)
+- [npmjs.com/package/@kiwicom/js](https://www.npmjs.com/package/@kiwicom/js)
+- [npmjs.com/package/@kiwicom/graphql-utils](https://www.npmjs.com/package/@kiwicom/graphql-utils)
+
+---
+
+# Thank you!
