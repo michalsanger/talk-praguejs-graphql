@@ -144,7 +144,52 @@ try {
 
 ---
 
-# Schema BC Checker
+# BC Checker
+
+`yarn add --dev @kiwicom/graphql-bc-checker`
+
+- Auto update schema snapshot
+- Create BC changelog
+- Fits into test pipeline
+- DX focus
+
+---
+
+# BC Checker
+
+```js
+// scripts/test-bc.js
+import path from 'path';
+import testBC from '@kiwicom/graphql-bc-checker';
+
+import Schema from './src/Schema';
+
+testBC({
+  allowBreakingChanges: false,
+  snapshotLocation: path.join(__dirname, 'schema-snapshot.graphql'),
+  schema: Schema,
+});
+```
+
+---
+
+# BC Checker DX
+
+```
+VALUE_REMOVED_FROM_ENUM - FUTURE was removed from enum type AllBookingsOnlyEnum.
+VALUE_REMOVED_FROM_ENUM - PAST was removed from enum type AllBookingsOnlyEnum.
+
+Tips how to avoid breaking changes:
+
+- field removal/modification (introduce new field and only deprecate the old one)
+- type removal/modification (just deprecate it and leave it there)
+- removal from enum/union (introduce new enum/union)
+- arguments removal/modification (introduce new query or graph node)
+- change non-nullable -> nullable (just don't do it or introduce new field)
+- change of default argument value (don't or introduce new argument/query)
+
+error Command failed with exit code 1.
+```
 
 ---
 
