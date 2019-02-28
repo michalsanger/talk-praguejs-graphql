@@ -9,6 +9,8 @@ Relay developer experience.
 
 [Slideshare.net](https://www.slideshare.net/MichalSnger/graphql-gifts-from-kiwicompresentation/)
 
+## About
+
 [PragueJS](https://www.meetup.com/praguejs/)
 
 Slides created in [Deckset](http://www.decksetapp.com/)
