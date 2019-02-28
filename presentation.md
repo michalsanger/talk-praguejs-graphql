@@ -122,6 +122,22 @@ try {
 
 # Logz
 
+`yarn add @kiwicom/graphql-logz`
+
+- Apollo Engine alternative
+- Logz.io backend & UI
+- GraphQL Query, Variables
+- Deprecated fields
+- Duration, Headers,
+
+---
+
+![fit](images/graphql-logz01.png)
+
+---
+
+![fit](images/graphql-logz02.png)
+
 ---
 
 # JS & Test utils?
