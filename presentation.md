@@ -11,7 +11,64 @@ Hello everyone...
 
 ---
 
-# Eslint & Babel preset
+# ESLint & Babel preset
+
+- Consistent codebase
+- Faster code reviews
+- Modern JS features
+
+---
+
+# ESlint
+
+`yarn add --dev @kiwicom/eslint-config`
+
+- React, RN, Hooks, Relay
+- Prettier, Jest
+- Flow, Node
+- extendable
+
+---
+
+# ESlint
+
+```js
+//.eslintrc.js
+module.exports = {
+  root: true,
+  extends: [
+    '@kiwicom/eslint-config',
+  ],
+};
+```
+
+---
+
+# Do not ignore ESLint warnings!
+
+```js
+//.eslintrc.js
+module.exports = {
+  root: true,
+  extends: [
+    '@kiwicom/eslint-config/strict',
+  ],
+};
+```
+---
+
+# Babel Preset
+
+`yarn add --dev @kiwicom/babel-preset-kiwicom`
+
+---
+
+# Babel Preset
+
+- Flow, JSX
+- class properties
+- Relay fragments
+- Sugar: `a?.b; a ?? b; {...a}`
 
 ---
 
