@@ -1,4 +1,5 @@
 build-lists: true
+autoscale: true
 
 # GraphQL gifts from Kiwi.com
 
@@ -60,10 +61,6 @@ module.exports = {
 # Babel Preset
 
 `yarn add --dev @kiwicom/babel-preset-kiwicom`
-
----
-
-# Babel Preset
 
 - Flow, JSX
 - class properties
@@ -239,3 +236,16 @@ error Command failed with exit code 1.
 ---
 
 ![fit](images/margarita-demo.mov)
+
+---
+
+# Links
+
+- [npmjs.com/package/@kiwicom/eslint-config](https://www.npmjs.com/package/@kiwicom/eslint-config)
+- [npmjs.com/package/@kiwicom/babel-preset-kiwicom](https://www.npmjs.com/package/@kiwicom/babel-preset-kiwicom)
+- [npmjs.com/package/@kiwicom/fetch](https://www.npmjs.com/package/@kiwicom/fetch)
+- [npmjs.com/package/@kiwicom/graphql-logz](https://www.npmjs.com/package/@kiwicom/graphql-logz)
+- [npmjs.com/package/@kiwicom/graphql-bc-checker](https://www.npmjs.com/package/@kiwicom/graphql-bc-checker)
+- [npmjs.com/package/@kiwicom/relay](https://www.npmjs.com/package/@kiwicom/relay)
+- [github.com/kiwicom/relay-example](https://github.com/kiwicom/relay-example)
+- [github.com/kiwicom/margarita](https://github.com/kiwicom/margarita)
