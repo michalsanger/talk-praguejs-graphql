@@ -1,4 +1,3 @@
-build-lists: true
 autoscale: true
 
 # GraphQL gifts from Kiwi.com
@@ -198,7 +197,7 @@ error Command failed with exit code 1.
 
 ---
 
-![fit](images/relay-logger.png)
+![inline](images/relay-logger.png)
 
 ---
 
@@ -233,9 +232,9 @@ error Command failed with exit code 1.
 
 # Share your :heart:
 
-![inline](images/stars.png)
-![inline](images/issues.png)
-![inline](images/pull-requests.png)
+![inline 150%](images/stars.png)
+![inline 150%](images/issues.png)
+![inline 150%](images/pull-requests.png)
 
 ---
 
