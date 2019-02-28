@@ -74,6 +74,50 @@ module.exports = {
 
 # Fetch
 
+`yarn add @kiwicom/fetch`
+
+- Retries
+- Timeouts
+- Error handling
+
+---
+
+# Fetch
+
+```js
+import fetchWithRetries from '@kiwicom/fetch';
+
+fetchWithRetries(
+  'https://example.api',
+  {
+    fetchTimeout: 15000,
+    retryDelays: [1000, 3000],
+    // ... standard Fetch options
+  },
+);
+
+```
+
+---
+
+# Fetch
+
+```js
+import fetchWithRetries, { TimeoutError, ResponseError } from '@kiwicom/fetch';
+
+try {
+  const response = await fetchWithRetries('//localhost');
+} catch (error) {
+  if (error instanceof TimeoutError) {
+    console.error('request timeouted');
+  } else if (error instanceof ResponseError) {
+    console.error('unsuccessful response', error.response);
+  } else {
+    console.error('unknown error');
+  }
+}
+```
+
 ---
 
 # Logz
